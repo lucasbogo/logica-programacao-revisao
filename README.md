@@ -13,6 +13,25 @@ Excercícios em **C** para a disciplina de Logica de programação (IFPR) | **RE
 Monte um menu utilizando o comando case e solicite os números para os cálculos de
 acordo com a operação.
 
+| Função       | Descrição                                     | Argumento | Exemplos              |
+|--------------|-----------------------------------------------|-----------|-----------------------|
+| **fabs**     | Valor absoluto do argumento.                  | real      | **abs(­23.2) = 23.2** |
+| **cos**      | Co-seno do argumento. Argumento em radianos   | real      | **cos(1.0) = 0.5403** |
+| **sin**      | Seno do argumento. Argumento em radianos      | real      | **sin(1.0) = 0.8415** |
+| **tan**      | Tangente do argumento. Argumento em radianos  | real      | **Tan(1.0) = 1.5574** |
+| **exp**      | Exponencial do argumento (e x )               | real      | **exp(1.0) = 2.718**  |
+| **log**      | Logaritmo natural do argumento                | real      | **log(10.0) = 2.303** |
+| **log10**    | Logaritmo base 10 do argumento                | real (>0) | **log(10.0) = 1**     |
+| **round**    | Arredonda para inteiro (retorna double)       | real (>0) | **round(3.4) = 3**    |
+| **trunc**    | Remove a parte fracionária do número          | real      | **trunc(3.99) = 3**   |
+| **ceil**     | Arredonda para cima                           | real      | **ceil(3.3) = 4**     |    
+| **floor**    | Arredonda para baixo                          | real      | **floor(3.8) = 3**    |
+| **sqrt**     | Raiz quadrada do argumento                    | real (>0) | **sqrt(3.0) = 1.732** |
+| **pow**      | Retorna o resultado de x elevado a y          | real      | **pow(3,3) = 27**     |
+| **fmax(x,y)**| Retorna o maior valor entre x e y             | real      | **fmax(2,5) = 5**     |
+| **fmin(x,y)**| Retorna o menor valor entre x e y             | real      | **fmin(2,5) = 2**     |
+
+
 <br>
 
 4. Faça um programa que calcule e exiba a quantidade de latas de tinta necessárias e o custo para pintar tanques cilíndricos de combustível. Para o cálculo de tais informações, é necessário que o programa solicite a altura e o raio desse cilindro. Para a construção do algoritmo, leve em consideração que:
