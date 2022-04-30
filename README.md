@@ -30,7 +30,15 @@ acordo com a operação.
 | **pow**      | Retorna o resultado de x elevado a y          | real      | **pow(3,3) = 27**     |
 | **fmax(x,y)**| Retorna o maior valor entre x e y             | real      | **fmax(2,5) = 5**     |
 | **fmin(x,y)**| Retorna o menor valor entre x e y             | real      | **fmin(2,5) = 2**     |
+<br>
 
+Constantes da biblioteca math.h
+
+| **Simbologia**        | Descrição                | Constante em C | **Valor**                   |
+|-----------------------|--------------------------|----------------|-----------------------------|
+| ****                 | Pi                       | M_PI           | **3,14159265358979323846**  |
+| **e**                 | Número de Euler          | M_E            | **2,7182818284590452354**   |
+| **log<sub>2</suv> e** | Logaritmo de e na base 2 | M_LOG2E        | **1,4426950408889634074**   |
 
 <br>
 
