@@ -36,9 +36,9 @@ Constantes da biblioteca math.h
 
 | **Simbologia**        | Descrição                | Constante em C | **Valor**                   |
 |-----------------------|--------------------------|----------------|-----------------------------|
-| ****                 | Pi                       | M_PI           | **3,14159265358979323846**  |
+| **Π**                 | Pi                       | M_PI           | **3,14159265358979323846**  |
 | **e**                 | Número de Euler          | M_E            | **2,7182818284590452354**   |
-| **log<sub>2</suv> e** | Logaritmo de e na base 2 | M_LOG2E        | **1,4426950408889634074**   |
+| **log<sub>2</sub>e** | Logaritmo de e na base 2 | M_LOG2E         | **1,4426950408889634074**   |
 
 <br>
 
